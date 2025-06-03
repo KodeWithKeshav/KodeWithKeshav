@@ -10,7 +10,7 @@ Hey, I’m Keshav S 👨‍💻<br><br>> Engineering pixels, circuits, and intel
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=kodewithkeshav&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=nightowl&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=kodewithkeshav&theme=nightowl&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=kodewithkeshav&theme=nightowl&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=kodewithkeshav&theme=radical&no-frame=false&no-bg=false&margin-w=4)
