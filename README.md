@@ -1,4 +1,4 @@
-<table style="width:100%">
+<table>
   <tr>
     <td>
       <h1>💫 About Me:</h1>
