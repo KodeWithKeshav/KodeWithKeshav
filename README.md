@@ -12,7 +12,7 @@
       - Full Stack Development<br>
       - IoT (Internet Of Things)<br>
       - Machine Learning & AI<br><br>
-      📬 Let's connect or collab on something cool!
+      📬 Let's connect or collab on something cool!<br>
     </td>
     <td align="right">
       <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFsbzFjM28zMzl6bXhheW1zN2FmMGt5YXNnMGxpeHltZ2Q3NGhqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="250px" height="140px">
