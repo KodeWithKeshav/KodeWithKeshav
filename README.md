@@ -1,6 +1,6 @@
 # 💫 About Me:
 Hey, I’m <b>Keshav S</b> 👨‍💻<br><br>> Engineering pixels, circuits, and intelligence into reality.<br><br>> I code across layers — from frontend pixels to backend logic,  <br> wire up the web 🌐,  <br> build smart systems that sense, learn, and adapt,  <br> and occasionally give machines 🤖 a brain  (and sometimes a soul 😄).<br><br>🔧 Interests:  <br>- Full Stack Development<br>- IoT (Internet Of Things)<br>- Machine Learning & AI <br><br>---<br>📬 Let's connect or collab on something cool!<br>
-<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFsbzFjM28zMzl6bXhheW1zN2FmMGt5YXNnMGxpeHltZ2Q3NGhqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FcqKy4Kj7XOK0hCW4g/giphy.gif" style="float:left">
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFsbzFjM28zMzl6bXhheW1zN2FmMGt5YXNnMGxpeHltZ2Q3NGhqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FcqKy4Kj7XOK0hCW4g/giphy.gif" style="float:right" width="200px" height="100px">
 
 
 ## 🌐 Socials:
