@@ -1,8 +1,26 @@
-# 💫 About Me:
-Hey, I’m <b>Keshav S</b> 👨‍💻<br><br>> Engineering pixels, circuits, and intelligence into reality.<br><br>> I code across layers — from frontend pixels to backend logic,  <br> wire up the web 🌐,  <br> build smart systems that sense, learn, and adapt,  <br> and occasionally give machines 🤖 a brain  (and sometimes a soul 😄).<br><br><span align="right"><img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFsbzFjM28zMzl6bXhheW1zN2FmMGt5YXNnMGxpeHltZ2Q3NGhqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="200px" height="100px"></span>🔧 Interests:  <br>- Full Stack Development<br>- IoT (Internet Of Things)<br>- Machine Learning & AI <br><br>---<br>📬 Let's connect or collab on something cool!<br>
+<table>
+  <tr>
+    <td>
 
+      <h1>💫 About Me:</h1>
+      Hey, I’m <b>Keshav S</b> 👨‍💻<br><br>
+      > Engineering pixels, circuits, and intelligence into reality.<br><br>
+      > I code across layers — from frontend pixels to backend logic,<br>
+      wire up the web 🌐,<br>
+      build smart systems that sense, learn, and adapt,<br>
+      and occasionally give machines 🤖 a brain (and sometimes a soul 😄).<br><br>
+      🔧 <b>Interests:</b><br>
+      - Full Stack Development<br>
+      - IoT (Internet Of Things)<br>
+      - Machine Learning & AI<br><br>
+      📬 Let's connect or collab on something cool!
 
-
+    </td>
+    <td align="right">
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWFsbzFjM28zMzl6bXhheW1zN2FmMGt5YXNnMGxpeHltZ2Q3NGhqdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="250px" height="140px">
+    </td>
+  </tr>
+</table>
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/_.keshav1023.___) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/keshav-s-545345266) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:kodewithkeshav@gmail.com) 
 
