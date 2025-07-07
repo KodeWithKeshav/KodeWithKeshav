@@ -90,11 +90,6 @@
         <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
       </td>
     </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kodewithkeshav&theme=tokyonight&hide_border=false&layout=compact" width="60%" />
-      </td>
-    </tr>
   </table>
 
 </div>
