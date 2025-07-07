@@ -75,20 +75,29 @@
 
 ---
 
+---
+
 ## 📊 GitHub Stats  
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="48%" />
-  <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="48%" /><br><br>
+
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="95%" />
+      </td>
+      <td align="center" width="50%">
+        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kodewithkeshav&theme=tokyonight&hide_border=false&layout=compact" width="60%" />
+      </td>
+    </tr>
+  </table>
+
 </div>
-
----
-
-## 🏆 GitHub Trophies  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kodewithkeshav&theme=radical&no-frame=false&no-bg=false&margin-w=10"/>
-</p>
-
----
 
 ## ✍️ Dev Quote
 <p align="center">
