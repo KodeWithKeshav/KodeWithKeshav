@@ -1,6 +1,11 @@
+<!-- 🌥️ Animated Cloud Header -->
+<p align="center">
+  <img src="https://i.gifer.com/7plP.gif" width="100%" alt="Moving Cloud Background"/>
+</p>
+
 <!-- Header Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Hey+I'm+Keshav+S;Fullstack+Dev+%7C+ML+%26+IoT+Enthusiast;Welcome+to+my+GitHub+space+%F0%9F%92%AB" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Hey+I'm+Keshav;Fullstack+Dev+%7C+ML+%26+IoT+Enthusiast;Welcome+to+my+GitHub+space+%F0%9F%92%AB" alt="Typing SVG" />
 </div>
 
 ---
@@ -75,12 +80,9 @@
 
 ---
 
----
-
 ## 📊 GitHub Stats  
 
 <div align="center">
-
   <table>
     <tr>
       <td align="center" width="50%">
@@ -91,8 +93,9 @@
       </td>
     </tr>
   </table>
-
 </div>
+
+---
 
 ## ✍️ Dev Quote
 <p align="center">
@@ -110,6 +113,12 @@
 
 ---
 
+<!-- 🌥️ Animated Cloud Footer -->
+<p align="center">
+  <img src="https://i.gifer.com/7plP.gif" width="100%" alt="Moving Cloud Background"/>
+</p>
+
+<!-- Wave Footer -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
