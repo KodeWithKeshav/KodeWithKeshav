@@ -1,11 +1,32 @@
+<!-- Background with Moving Clouds -->
+<div style="position:relative;">
+  <div style="position:absolute; top:0; left:0; width:100%; height:100%; z-index:-1; overflow:hidden;">
+    <div style="position:absolute; top:0; left:0; width:500%; height:100%; background: linear-gradient(to right, #0f2027, #203a43, #2c5364); animation: cloudMove 60s linear infinite;">
+      <div style="position:absolute; top:20%; left:0; width:100%; height:100%;">
+        <div style="position:absolute; width:200px; height:60px; background:rgba(255,255,255,0.1); border-radius:50%; filter:blur(10px); left:10%;"></div>
+        <div style="position:absolute; width:300px; height:80px; background:rgba(255,255,255,0.15); border-radius:50%; filter:blur(12px); left:30%; top:30%;"></div>
+        <div style="position:absolute; width:250px; height:70px; background:rgba(255,255,255,0.1); border-radius:50%; filter:blur(8px); left:50%; top:15%;"></div>
+        <div style="position:absolute; width:180px; height:50px; background:rgba(255,255,255,0.1); border-radius:50%; filter:blur(6px); left:70%; top:25%;"></div>
+        <div style="position:absolute; width:350px; height:90px; background:rgba(255,255,255,0.1); border-radius:50%; filter:blur(15px); left:90%; top:10%;"></div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    @keyframes cloudMove {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-40%); }
+    }
+  </style>
+
 <!-- Header Typing Animation -->
-<div align="center">
+<div align="center" style="position:relative; z-index:1;">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Hey+I'm+Keshav+S;Fullstack+Dev+%7C+ML+%26+IoT+Enthusiast;Welcome+to+my+GitHub+space+%F0%9F%92%AB" alt="Typing SVG" />
 </div>
 
 ---
 
-<table>
+<table style="background:rgba(15,32,39,0.7); backdrop-filter:blur(5px); border-radius:15px; padding:20px; position:relative; z-index:1;">
   <tr>
     <td width="65%">
       <h2>💫 About Me</h2>
@@ -28,7 +49,7 @@
 ---
 
 ## 🌐 Connect with Me  
-<p>
+<p style="background:rgba(15,32,39,0.7); backdrop-filter:blur(5px); border-radius:15px; padding:15px; position:relative; z-index:1;">
   <a href="mailto:kodewithkeshav@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://instagram.com/_.keshav1023.___"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
   <a href="https://linkedin.com/in/keshav-s-545345266"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -38,7 +59,7 @@
 
 ## 🧰 Tech Stack
 
-<table>
+<table style="background:rgba(15,32,39,0.7); backdrop-filter:blur(5px); border-radius:15px; padding:15px; position:relative; z-index:1;">
   <tr>
     <td><img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/></td>
@@ -75,19 +96,23 @@
 
 ---
 
----
-
 ## 📊 GitHub Stats  
 
-<div align="center">
+<div align="center" style="position:relative; z-index:1;">
 
-  <table>
+  <table style="background:rgba(15,32,39,0.7); backdrop-filter:blur(5px); border-radius:15px; padding:15px;">
     <tr>
       <td align="center" width="50%">
         <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="95%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
+        <img src="https://streak-stats.demolab.com/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <!-- Enhanced Contribution Graph -->
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=My%20Contribution%20Graph&area_color=00f7ff&color=00f7ff&line=00f7ff&point=ffffff" width="100%"/>
       </td>
     </tr>
   </table>
@@ -95,21 +120,24 @@
 </div>
 
 ## ✍️ Dev Quote
-<p align="center">
+<p align="center" style="background:rgba(15,32,39,0.7); backdrop-filter:blur(5px); border-radius:15px; padding:15px; position:relative; z-index:1;">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 </p>
 
 ---
 
 ## 🐍 GitHub Contribution Snake
+<div style="background:rgba(15,32,39,0.7); backdrop-filter:blur(5px); border-radius:15px; padding:15px; position:relative; z-index:1;">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
   <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
 </picture>
+</div>
 
 ---
 
-<p align="center">
+<p align="center" style="position:relative; z-index:1;">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
+</div>
