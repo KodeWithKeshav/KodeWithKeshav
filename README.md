@@ -119,16 +119,11 @@ My current operations include:<br>
 
 ---
 
-## 🕵️ Code Trails in the Dark  
-> _“In the shadows of cyberspace, every contribution whispers a story…”_
+## 🐍 GitHub Contribution Snake
 
-<!-- GitHub Contribution Snake: Echoes from the Underground -->
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
-  <img alt="GitHub Snake — Code trails left in silence." src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
-</picture>
-
+  <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
 
 
 ---
