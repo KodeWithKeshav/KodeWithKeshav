@@ -7,23 +7,24 @@
 
 <table>
   <tr>
-    <td width="65%" style="vertical-align: top;">
-      <h2 align="center" style="font-family: 'Orbitron', sans-serif; color:#00FFF7;">💫 About Me</h2>
-      <p style="font-family: 'Segoe UI', sans-serif; color:#E0E0E0; font-size: 15px; line-height: 1.6;">
-        I'm <strong style="color:#B46CFF;">Keshav S</strong>, a <span style="color:#00FFF7;">passionate developer</span> and <span style="color:#4FC3F7;">curious builder</span> 👨‍💻<br><br>
-        I love crafting solutions across layers — from <span style="color:#FFAA4C;">frontend UIs</span> and <span style="color:#FF77A9;">backend APIs</span> to <span style="color:#D4FF00;">hardware logic</span> and <span style="color:#B46CFF;">ML-powered systems</span>.<br><br>
-        <span style="color:#8AE3FF;">Currently exploring:</span><br>
-        ▸ <span style="color:#FF7B8F;">Full Stack Web Development</span><br>
-        ▸ <span style="color:#A0FFDD;">Embedded AI & IoT</span><br>
-        ▸ <span style="color:#FFD54F;">Real-world ML Applications</span><br><br>
-        🤝 <span style="color:#00E676;">Open to collaborations</span> and <span style="color:#FF6F91;">cool tech ideas</span>!
+    <td width="65%">
+      <h2 align="center">💫 About Me</h2>
+      <p>
+        I'm <strong>Keshav S</strong>, a passionate developer and curious builder. 👨‍💻<br><br>
+        I love engineering solutions across layers — frontend UI, backend APIs, hardware with logic, and smart ML-powered systems.<br><br>
+        Currently exploring:<br>
+        ▸ Full Stack Web Development<br>
+        ▸ Embedded AI & IoT<br>
+        ▸ Real-world ML Applications<br><br>
+        🤝 Open to collaborations and cool tech ideas!
       </p>
     </td>
     <td align="center">
-      <img src="https://media3.giphy.com/media/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="200px" height="200px" style="border-radius: 12px; border: 2px solid #00FFF7;" />
+      <img src="https://media3.giphy.com/media/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="200px" height="200px" style="border-radius:10px;" />
     </td>
   </tr>
 </table>
+
 ---
 
 ## 🌐 Connect with Me  
