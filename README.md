@@ -1,26 +1,35 @@
 <!-- Header Typing Animation -->
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&duration=3000&pause=1000&color=00FFF7&center=true&vCenter=true&width=800&lines=Hey+I'm+Keshav+S;Fullstack+Dev+%7C+ML+%26+IoT+Enthusiast;Welcome+to+my+GitHub+space" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=F80000&center=true&vCenter=true&width=800&lines=They+call+me+Keshav+S;Concierge+of+Code+%7C+Architect+of+Logic;I+build+Systems+that+Speak%2C+Sense+%26+Solve..." alt="Typing SVG" />
 </div>
+
+---
+
+<p align="center">
+  <img src="https://i.pinimg.com/originals/85/fc/c3/85fcc3c4d6d34278e8a8dc83b00b18c3.gif" width="350px" alt="Raymond Reddington style" style="border-radius: 20px; box-shadow: 0px 0px 20px #F80000;" />
+</p>
 
 ---
 
 <table>
   <tr>
     <td width="65%">
-      <h2 align="center">About Me</h2>
+      <h2 align="center">🕴 Who Am I?</h2>
       <p>
-        I'm <strong>Keshav S</strong>, a passionate developer and curious builder. 👨‍💻<br><br>
-        I love engineering solutions across layers — frontend UI, backend APIs, hardware with logic, and smart ML-powered systems.<br><br>
-        Currently exploring:<br>
-        ▸ Full Stack Web Development<br>
-        ▸ Embedded AI & IoT<br>
-        ▸ Real-world ML Applications<br><br>
-        🤝 Open to collaborations and cool tech ideas!
+        <strong>Keshav S</strong>, a developer by title, a systems tactician by instinct.<br><br>
+        A silent observer of chaos — crafting harmony in code.<br><br>
+        ▸ I orchestrate full-stack experiences with precision.<br>
+        ▸ Inject life into silicon through Embedded AI & IoT.<br>
+        ▸ Build Machine Learning models that *observe*, *reason*, and *respond*.<br><br>
+
+        <strong>My Philosophy:</strong>  
+        <i>"You don’t just build applications. You build empires of logic, protected by firewalls, guarded by models, and dressed in UI."</i><br><br>
+
+        🥃 Sometimes, the best tools aren't on the shelf — they're forged.
       </p>
     </td>
     <td align="center">
-      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnpxcndwYmVuMXF3a2tyaXM1Y2I2OTFxeDEyaWt1bmZkdXBrenJ4aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7fleCjMPGOK5GNO5Vv/giphy.gif" width="200px" height="200px" style="border-radius:10px;" />
+      <img src="https://media.tenor.com/VuVZbpQ_OfwAAAAC/the-blacklist-raymond-reddington.gif" width="220px" style="border-radius:12px;" />
     </td>
   </tr>
 </table>
@@ -36,7 +45,9 @@
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Tech Arsenal
+
+> “A well-equipped mind needs a well-equipped toolkit.”
 
 <table>
   <tr>
@@ -75,46 +86,43 @@
 
 ---
 
----
-
-## 📊 GitHub Stats  
+## 📊 My Surveillance Logs (GitHub Stats)
 
 <div align="center">
-
   <table>
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="95%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=radical&hide_border=false&count_private=true" width="95%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
+        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=radical&hide_border=false" width="95%" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=My%20Contribution%20Graph&area_color=00f7ff&color=00f7ff&line=00f7ff&point=ffffff" width="100%"/>
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=redical&bg_color=0d0d0d&hide_border=true&area=true&custom_title=Red+Strings+of+My+Network&area_color=ff3333&color=f80000&line=ff1a1a&point=ffffff" width="100%"/>
       </td>
     </tr>
   </table>
-
 </div>
 
-## ✍️ Dev Quote
+---
+
+## ✍️ Words I Live By
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"/>
 </p>
 
 ---
 
 ## 🐍 GitHub Contribution Snake
 
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
+<figure>
   <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
-
+</figure>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=red&height=100&section=footer"/>
 </p>
