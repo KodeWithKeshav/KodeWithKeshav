@@ -29,12 +29,20 @@ My current operations include:<br>
 
 ---
 
-## 🌐 Connect with Me  
-<p>
-  <a href="mailto:kodewithkeshav@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://instagram.com/_.keshav1023.___"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/keshav-s-545345266"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+## 🕵️ Reach the Concierge
+
+<p align="center">
+  <a href="mailto:kodewithkeshav@gmail.com">
+    <img src="https://img.shields.io/badge/Encrypted%20Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=8B0000" alt="Gmail"/>
+  </a>
+  <a href="https://instagram.com/_.keshav1023.___">
+    <img src="https://img.shields.io/badge/Follow%20the%20Trail-%23C13584?style=for-the-badge&logo=instagram&logoColor=white&labelColor=2B0000" alt="Instagram"/>
+  </a>
+  <a href="https://linkedin.com/in/keshav-s-545345266">
+    <img src="https://img.shields.io/badge/Professional%20Alias-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1C1C1C" alt="LinkedIn"/>
+  </a>
 </p>
+
 
 ---
 
