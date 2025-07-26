@@ -1,6 +1,6 @@
-<!-- Header Typing Animation -->
+<!-- 🐾 Header Typing Animation -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Hey+I'm+Keshav+S;Fullstack+Dev+%7C+ML+%26+IoT+Enthusiast;Welcome+to+my+GitHub+space+%F0%9F%92%AB" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=550&lines=Hey+I'm+Keshav+S+%F0%9F%90%BE;Fullstack+Dev+%7C+ML+%26+IoT+Enthusiast;Animal+Lover+%7C+Nature+Inspired+Coder;Welcome+to+my+GitHub+Den+%F0%9F%8C%BF" alt="Typing SVG" />
 </div>
 
 ---
@@ -8,26 +8,27 @@
 <table>
   <tr>
     <td width="65%">
-      <h2>💫 About Me</h2>
+      <h2>🌿 Who Am I?</h2>
       <p>
-        I'm <strong>Keshav S</strong>, a passionate developer and curious builder. 👨‍💻<br><br>
-        I love engineering solutions across layers — frontend UI, backend APIs, hardware with logic, and smart ML-powered systems.<br><br>
-        Currently exploring:<br>
-        ▸ Full Stack Web Development<br>
-        ▸ Embedded AI & IoT<br>
-        ▸ Real-world ML Applications<br><br>
-        🤝 Open to collaborations and cool tech ideas!
+        I'm <strong>Keshav S</strong> — a curious builder, tech adventurer, and animal lover. 🐾<br><br>
+        I thrive on creating systems that blend <strong>code</strong>, <strong>hardware</strong>, and <strong>intelligence</strong>, much like nature’s ecosystems.<br><br>
+        🚀 Exploring the wilds of:<br>
+        ▸ Full Stack Web Development 🕸️<br>
+        ▸ Embedded AI & Smart IoT 🧠🔌<br>
+        ▸ Real-world Machine Learning 🐍📈<br><br>
+        🤝 Let’s collaborate and build solutions as natural and powerful as the animal kingdom! 🐘🦉
       </p>
     </td>
     <td align="center">
-      <img src="https://media3.giphy.com/media/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="200px" height="200px" style="border-radius:10px;" />
+      <img src="https://media3.giphy.com/media/zOvBKUUEERdNm/giphy.gif" width="220px" style="border-radius:10px;" alt="animal-coding"/>
     </td>
   </tr>
 </table>
 
 ---
 
-## 🌐 Connect with Me  
+## 🐾 Connect with Me in the Wild
+
 <p>
   <a href="mailto:kodewithkeshav@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://instagram.com/_.keshav1023.___"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
@@ -36,7 +37,9 @@
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Tech Safari (Stack)
+
+> Technologies I roam through like a curious fox in the digital forest 🌳🦊
 
 <table>
   <tr>
@@ -75,31 +78,32 @@
 
 ---
 
----
-
-## 📊 GitHub Stats  
+## 🦁 GitHub Jungle Stats
 
 <div align="center">
 
-  <table>
-    <tr>
-      <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="95%" />
-      </td>
-      <td align="center" width="50%">
-        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=My%20Contribution%20Graph&area_color=00f7ff&color=00f7ff&line=00f7ff&point=ffffff" width="100%"/>
-      </td>
-    </tr>
-  </table>
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="95%" />
+    </td>
+    <td width="50%">
+      <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=My%20Contribution%20Graph&area_color=00f7ff&color=00f7ff&line=00f7ff&point=ffffff" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
-## ✍️ Dev Quote
+---
+
+## 🐯 Dev Quote of the Day
+
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 </p>
@@ -108,10 +112,9 @@
 
 ## 🐍 GitHub Contribution Snake
 
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
-  <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
-
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
+<img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
 
 ---
 
