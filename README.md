@@ -7,23 +7,24 @@
 
 <table>
   <tr>
-    <td width="65%">
-      <h2 align="center">💫 About Me</h2>
-      <p>
-        I'm <strong>Keshav S</strong>, a passionate developer and curious builder. 👨‍💻<br><br>
-        I love engineering solutions across layers — frontend UI, backend APIs, hardware with logic, and smart ML-powered systems.<br><br>
-        Currently exploring:<br>
-        ▸ Full Stack Web Development<br>
-        ▸ Embedded AI & IoT<br>
-        ▸ Real-world ML Applications<br><br>
-        🤝 Open to collaborations and cool tech ideas!
+    <td width="65%" style="vertical-align: top;">
+      <h2 align="center" style="color:#00FFF7;">💫 About Me</h2>
+      <p style="color:#CFCFCF; font-family: Arial, sans-serif; font-size: 14px; line-height: 1.6;">
+        I'm <strong style="color:#B46CFF;">Keshav S</strong>, a <strong style="color:#00FFF7;">passionate developer</strong> and <strong style="color:#4FC3F7;">curious builder</strong> 👨‍💻<br><br>
+        I love engineering solutions across layers — <span style="color:#FFD700;">frontend UIs</span>, <span style="color:#FF77A9;">backend APIs</span>, <span style="color:#A0FFDD;">hardware logic</span>, and <span style="color:#C586FF;">ML-powered systems</span>.<br><br>
+        <strong style="color:#8AE3FF;">Currently exploring:</strong><br>
+        ▸ <span style="color:#FF7B8F;">Full Stack Web Development</span><br>
+        ▸ <span style="color:#D4FF00;">Embedded AI & IoT</span><br>
+        ▸ <span style="color:#FFD54F;">Real-world ML Applications</span><br><br>
+        🤝 <strong style="color:#00E676;">Open to collaborations</strong> and <strong style="color:#FF6F91;">cool tech ideas</strong>!
       </p>
     </td>
     <td align="center">
-      <img src="https://media3.giphy.com/media/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="200px" height="200px" style="border-radius:10px;" />
+      <img src="https://media3.giphy.com/media/FcqKy4Kj7XOK0hCW4g/giphy.gif" width="200px" height="200px" style="border-radius: 12px; border: 2px solid #00FFF7;" />
     </td>
   </tr>
 </table>
+
 
 ---
 
