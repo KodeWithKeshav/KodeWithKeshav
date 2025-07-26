@@ -8,7 +8,7 @@
 <table>
   <tr>
     <td width="65%">
-      <h2 style="text-align=center;">💫 About Me</h2>
+      <h2>💫 About Me</h2>
       <p>
         I'm <strong>Keshav S</strong>, a passionate developer and curious builder. 👨‍💻<br><br>
         I love engineering solutions across layers — frontend UI, backend APIs, hardware with logic, and smart ML-powered systems.<br><br>
