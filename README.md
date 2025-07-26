@@ -79,22 +79,22 @@ My current operations include:<br>
 
 ---
 
-## 📊 GitHub Stats  
+## 🕵️ Red’s Intel Network
 
 <div align="center">
 
   <table>
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=tokyonight&hide_border=false&count_private=true" width="95%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=radical&hide_border=false&count_private=true" width="95%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=tokyonight&hide_border=false" width="95%" />
+        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=radical&hide_border=false" width="95%" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=0d1117&hide_border=true&area=true&custom_title=My%20Contribution%20Graph&area_color=00f7ff&color=00f7ff&line=00f7ff&point=ffffff" width="100%"/>
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=0D0D0D&hide_border=true&area=true&custom_title=Red’s%20Intel%20Network&area_color=F80000&color=F80000&line=F80000&point=FFFFFF" width="100%"/>
       </td>
     </tr>
   </table>
