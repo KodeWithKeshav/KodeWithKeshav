@@ -33,15 +33,16 @@ My current operations include:<br>
 
 <p align="center">
   <a href="mailto:kodewithkeshav@gmail.com">
-    <img src="https://img.shields.io/badge/Encrypted%20Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=8B0000" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/Encrypted%20Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://instagram.com/_.keshav1023.___">
-    <img src="https://img.shields.io/badge/Follow%20the%20Trail-%23C13584?style=for-the-badge&logo=instagram&logoColor=white&labelColor=2B0000" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/Follow%20the%20Trail-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   <a href="https://linkedin.com/in/keshav-s-545345266">
-    <img src="https://img.shields.io/badge/Professional%20Alias-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1C1C1C" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/Professional%20Alias-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </p>
+
 
 
 ---
