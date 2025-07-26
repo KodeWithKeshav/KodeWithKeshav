@@ -23,7 +23,6 @@ My current operations include:<br>
     </td>
     <td align="center">
   <img src="https://drive.google.com/uc?export=view&id=1EM5GajZ9baadIcoPHFDKuWcYUIFkuqhS" width="200px" />
-
     </td>
   </tr>
 </table>
