@@ -1,7 +1,7 @@
 name: 🐍 GitHub Contribution Snake
 
 on:
-  # ➊ Run every day at 00:05 UTC (GitHub’s token for cron is cheap, so 00:05 avoids the 00:00 rush)
+  # ➊ Run every day at 00:05 UTC
   schedule:
     - cron: "5 0 * * *"
 
@@ -13,14 +13,14 @@ on:
     branches: [ main ]
 
 jobs:
-  build‑snake:
+  build-snake:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
-    # ↓ A tiny speed boost – cache the Platane container layers
     permissions:
-      contents: write        # needed for gh‑pages deploy
-      actions: read          # allow cache use
+      contents: write
+      actions: read
+
     steps:
       - uses: actions/checkout@v4
 
@@ -28,26 +28,20 @@ jobs:
         uses: actions/cache@v4
         with:
           path: /tmp/.docker-layer-cache
-          key: ${{ runner.os }}‑platane‑snk‑v3
+          key: ${{ runner.os }}‑platane‑snk‑reddington‑v1
 
       - name: Generate contribution snakes
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
 
-          # ── Output variants ───────────────────────────────────────────────
+          # ── Reddington Theme ───────────────────────────────────────────────
           outputs: |
-            # Light SVG (pastel snake)
-            dist/snake-light.svg?color_snake=#ff7f50&color_dots=#fdf5e6,#ffe4b5,#ffd39b,#ffc07f,#ffa07a
+            # Reddington Dark SVG (rich crimson snake on dark crime-board tones)
+            dist/snake-reddington.svg?color_snake=#8B0000&color_dots=#0a0a0a,#1a1a1a,#2e2e2e,#4d0000,#660000
 
-            # Dark SVG (neon snake, GitHub dark palette)
-            dist/snake-dark.svg?palette=github-dark&color_snake=#00ff9a&color_dots=#0d1117,#161b22,#21262d,#30363d,#8b949e
-
-            # Solarized‑dark SVG
-            dist/snake-solarized.svg?palette=solarized-dark&color_snake=#b58900&color_dots=#002b36,#073642,#586e75,#657b83,#839496
-
-            # Ocean GIF (retina 2×, 600 fps for butter‑smooth)
-            dist/snake-ocean@2x.gif?color_snake=#ffb300&color_dots=#a2d9ff,#6ec4ff,#3d9eff,#1f76ff,#004bff&pixels_per_frame=2&frame_duration=4
+            # Reddington Noir GIF (dark mafia-style with subtle blood trail)
+            dist/snake-noir.gif?color_snake=#8B0000&color_dots=#0f0f0f,#1c1c1c,#3a3a3a,#5a0000,#7a0000&pixels_per_frame=2&frame_duration=4
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -58,4 +52,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
           publish_branch: output
-          commit_message: "chore: update contribution snake 🐍 [skip ci]"
+          commit_message: "chore: update contribution snake 🐍🕴️ (Reddington style) [skip ci]"
