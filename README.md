@@ -10,13 +10,15 @@
     <td width="65%">
       <h2 align="center">About Me</h2>
       <p>
-        I'm <strong>Keshav S</strong>, a passionate developer and curious builder. 👨‍💻<br><br>
-        I love engineering solutions across layers — frontend UI, backend APIs, hardware with logic, and smart ML-powered systems.<br><br>
-        Currently exploring:<br>
-        ▸ Full Stack Web Development<br>
-        ▸ Embedded AI & IoT<br>
-        ▸ Real-world ML Applications<br><br>
-        🤝 Open to collaborations and cool tech ideas!
+        I'm <strong>Keshav S</strong> — a tactician of technology and a curator of digital constructs. 🕴️<br><br>
+I don’t just build software. I architect ecosystems — from orchestrated frontend interfaces and robust backend APIs to silicon logic and machine intelligence whispering in the dark.<br><br>
+
+My current operations include:<br>
+▸ Full Stack Webcraft — engineered with precision<br>
+▸ Embedded Intelligence & IoT — where machines begin to listen<br>
+▸ Machine Learning for the Real World — models that don’t guess, they know<br><br>
+
+🤝 Always open to high-stakes collaborations, ambitious ideas, or classified projects.
       </p>
     </td>
     <td align="center">
