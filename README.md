@@ -101,9 +101,10 @@ My current operations include:<br>
 
 </div>
 
-## ✍️ Dev Quote
+## 🗝️ Words From the Dark
+
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"/>
 </p>
 
 ---
