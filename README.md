@@ -22,7 +22,7 @@ My current operations include:<br>
       </p>
     </td>
     <td align="center">
-      <img src="https://drive.google.com/file/d/17MGuWHnDipqALDRhnDHyRfpUt40FFfHg/view?usp=drive_link" width="200px" height="200px" style="border-radius:10px;" />
+      <img src="https://drive.google.com/file/d/17MGuWHnDipqALDRhnDHyRfpUt40FFfHg/view?usp=sharing" width="200px" height="200px" style="border-radius:10px;" />
     </td>
   </tr>
 </table>
