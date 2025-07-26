@@ -38,46 +38,47 @@ My current operations include:<br>
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 Tools of the Trade  
+<em>“A craftsman is only as good as his tools — and I prefer mine lethal.”</em>  
+<div align="center">
 
 <table>
   <tr>
-    <td><img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/></td>
-    <td><img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/C-252525?style=for-the-badge&logo=c&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/C++-252525?style=for-the-badge&logo=c%2B%2B&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=ffdd54"/></td>
+    <td><img src="https://img.shields.io/badge/Java-3C3C3C?style=for-the-badge&logo=openjdk&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Dart-1C1C1C?style=for-the-badge&logo=dart&logoColor=white"/></td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/></td>
-    <td><img src="https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/></td>
-    <td><img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/HTML5-7A0000?style=for-the-badge&logo=html5&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/CSS3-003B73?style=for-the-badge&logo=css3&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/></td>
+    <td><img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB"/></td>
+    <td><img src="https://img.shields.io/badge/Flutter-0A0A0A?style=for-the-badge&logo=flutter&logoColor=white"/></td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/></td>
-    <td><img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34"/></td>
+    <td><img src="https://img.shields.io/badge/Node.js-263C2F?style=for-the-badge&logo=node.js&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Express.js-1B1B1B?style=for-the-badge&logo=express&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/MongoDB-143328?style=for-the-badge&logo=mongodb&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/MySQL-2E3A59?style=for-the-badge&logo=mysql&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Firebase-362213?style=for-the-badge&logo=firebase&logoColor=FFCA28"/></td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/OpenCV-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/TailwindCSS-0A0F0F?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC"/></td>
+    <td><img src="https://img.shields.io/badge/Bootstrap-250055?style=for-the-badge&logo=bootstrap&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/OpenCV-2E2E2E?style=for-the-badge&logo=opencv&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/TensorFlow-300000?style=for-the-badge&logo=TensorFlow&logoColor=FF6F00"/></td>
+    <td><img src="https://img.shields.io/badge/Numpy-1A1A1A?style=for-the-badge&logo=numpy&logoColor=white"/></td>
   </tr>
   <tr>
-    <td><img src="https://img.shields.io/badge/Pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black"/></td>
+    <td><img src="https://img.shields.io/badge/Pandas-0A0A0A?style=for-the-badge&logo=pandas&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Matplotlib-191919?style=for-the-badge&logo=Matplotlib&logoColor=white"/></td>
   </tr>
 </table>
 
----
+</div>
 
----
 
 ## 🕵️ Red’s Intel Network
 
