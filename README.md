@@ -1,6 +1,6 @@
 <!-- Header Typing Animation -->
 <div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&duration=3000&pause=1000&color=00FFF7&center=true&vCenter=true&width=800&lines=Hey+I'm+Keshav+S;Fullstack+Dev+%7C+ML+%26+IoT+Enthusiast;Welcome+to+my+GitHub+space" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&duration=3000&pause=1000&color=F80000&center=true&vCenter=true&width=800&lines=They+call+me+Keshav+S;Concierge+of+Code+%7C+Architect+of+Logic;I+build+Systems+that+Speak%2C+Sense+%26+Solve..." alt="Typing SVG" />
 </div>
 
 ---
