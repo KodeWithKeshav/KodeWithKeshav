@@ -21,7 +21,7 @@ My current operations include:<br>
 🤝 Always open to high-stakes collaborations, ambitious ideas, or classified projects.
       </p>
     </td>
-    <td align="center" border="0">
+    <td align="center">
   <img src="https://drive.google.com/uc?export=view&id=1EM5GajZ9baadIcoPHFDKuWcYUIFkuqhS" width="200px" />
     </td>
   </tr>
