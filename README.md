@@ -48,7 +48,7 @@ My current operations include:<br>
 ---
 
 ## 🧰 Tools of the Trade  
-<em>“A craftsman is only as good as his tools — and I prefer mine lethal.”</em>  
+<em align="center">“A craftsman is only as good as his tools — and I prefer mine lethal.”</em>  
 <div align="center">
 
 <table>
