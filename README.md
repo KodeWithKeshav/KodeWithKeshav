@@ -5,7 +5,7 @@
 
 ---
 
-<table border="0">
+<table>
   <tr>
     <td width="65%">
       <h2 align="center">About Me</h2>
@@ -21,7 +21,7 @@ My current operations include:<br>
 🤝 Always open to high-stakes collaborations, ambitious ideas, or classified projects.
       </p>
     </td>
-    <td align="center">
+    <td align="center" border="0">
   <img src="https://drive.google.com/uc?export=view&id=1EM5GajZ9baadIcoPHFDKuWcYUIFkuqhS" width="200px" />
     </td>
   </tr>
