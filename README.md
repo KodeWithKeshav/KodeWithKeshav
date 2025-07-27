@@ -5,7 +5,7 @@
 
 ---
 
-<table border="none">
+<table border="0">
   <tr>
     <td width="65%">
       <h2 align="center">About Me</h2>
