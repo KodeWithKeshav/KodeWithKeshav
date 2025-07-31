@@ -1,53 +1,42 @@
-name: 🐍 GitHub Contribution Snake
+name: GitHub Snake Game
 
 on:
-  # ➊ Run every day at 00:05 UTC
+  # Schedule the workflow to run daily at midnight UTC
   schedule:
-    - cron: "5 0 * * *"
-
-  # ➋ Allow manual run
+    - cron: "0 0 * * *"
+  # Allow manual triggering of the workflow
   workflow_dispatch:
-
-  # ➌ Regenerate on pushes to main
+  # Trigger the workflow on pushes to the main branch
   push:
-    branches: [ main ]
-
+    branches:
+      - main
 jobs:
-  build_snake:
+  generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
-    permissions:
-      contents: write
-      actions: read
-
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Cache Platane image layers
-        uses: actions/cache@v4
-        with:
-          path: /tmp/.docker-layer-cache
-          key: ${{ runner.os }}-platane-snk-reddington-v1
-
-      - name: Generate contribution snakes
+        uses: actions/checkout@v3
+      # Step 2: Generate the snake animations
+      - name: Generate GitHub Contributions Snake Animations
         uses: Platane/snk@v3
         with:
+          # GitHub username to generate the animation for
           github_user_name: ${{ github.repository_owner }}
+          # Define the output files and their configurations
           outputs: |
-            # Reddington Dark SVG (rich crimson snake on dark crime-board tones)
-            dist/snake-reddington.svg?color_snake=#8B0000&color_dots=#0a0a0a,#1a1a1a,#2e2e2e,#4d0000,#660000
-
-            # Reddington Noir GIF (dark mafia-style with subtle blood trail)
-            dist/snake-noir.gif?color_snake=#8B0000&color_dots=#0f0f0f,#1c1c1c,#3a3a3a,#5a0000,#7a0000&pixels_per_frame=2&frame_duration=4
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Deploy to ➜ output branch
+      # Step 3: Deploy the generated files to the 'output' branch
+      - name: Deploy to Output Branch
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
+          publish_dir: ./dist
           publish_branch: output
-          commit_message: "chore: update contribution snake 🐍🕴️ (Reddington style) [skip ci]"
+          # Optionally, you can set a custom commit message
+          commit_message: "Update snake animation [skip ci]"
