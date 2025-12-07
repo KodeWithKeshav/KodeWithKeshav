@@ -134,15 +134,19 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-## 🐍 THE TRAIL
+## 🔍 THE EVIDENCE TRAIL
 
 <div align="center">
+
+*Every contribution leaves a mark. Every commit tells a story.*
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
+  <img alt="Tracking the digital footprints" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" width="100%"/>
 </picture>
+
+**🕵️ Following the breadcrumbs through the codebase...**
 
 </div>
 
@@ -150,9 +154,90 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 <div align="center">
 
-## 🎩 *"Case closed. Until the next one."*
+---
 
-![Profile Views](https://komarev.com/ghpvc/?username=kodewithkeshav&color=D4AF37&style=for-the-badge&label=VISITORS)
+### 📂 CLASSIFIED PROJECTS
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+**🔐 OPERATION: STEALTH**  
+*Backend infrastructure that operates in complete silence*
+
+[![Tech](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)](https://github.com/kodewithkeshav)
+[![Tech](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://github.com/kodewithkeshav)
+
+</td>
+<td width="33%" align="center">
+
+**🎯 OPERATION: PRECISION**  
+*ML models that predict before you think*
+
+[![Tech](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=black)](https://github.com/kodewithkeshav)
+[![Tech](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/kodewithkeshav)
+
+</td>
+<td width="33%" align="center">
+
+**📱 OPERATION: GHOST**  
+*Mobile apps that leave no trace*
+
+[![Tech](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://github.com/kodewithkeshav)
+[![Tech](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)](https://github.com/kodewithkeshav)
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🎖️ FIELD REPORTS
+
+<details>
+<summary><b>🔍 What I'm Currently Investigating</b></summary>
+<br/>
+
+```
+→ Advanced Web Security & Penetration Testing
+→ Microservices Architecture in the Shadows  
+→ Real-time Data Pipelines with Zero Latency
+→ AI-Powered Automation for Complex Workflows
+```
+
+</details>
+
+<details>
+<summary><b>💡 Philosophy of The Detective</b></summary>
+<br/>
+
+> "Code is not just about making things work.  
+> It's about making them work **elegantly**, **efficiently**, and **invisibly**.  
+>   
+> The best systems are the ones you never notice —  
+> until something goes wrong, and then they fix themselves.  
+>   
+> That's the art. That's the craft."
+
+</details>
+
+<details>
+<summary><b>🤝 Want to Collaborate?</b></summary>
+<br/>
+
+I'm always interested in:
+- **High-impact projects** that solve real problems
+- **Innovative tech stacks** pushing boundaries
+- **Open source contributions** that matter
+- **Consulting opportunities** for complex architectures
+
+Drop me a line through the secure channels above. Let's build something extraordinary.
+
+</details>
+
+---
+
+## 🎩 *"Case closed. Until the next one."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4&height=100&section=footer"/>
 
