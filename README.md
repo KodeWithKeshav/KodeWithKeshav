@@ -39,13 +39,13 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 <p align="center">
   <a href="mailto:kodewithkeshav@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Encrypted_Mail-D4AF37?style=for-the-badge&logo=gmail&logoColor=black" alt="Gmail"/>
+    <img src="https://img.shields.io/badge/Encrypted_Mail-D4AF37?style=for-the-badge&logo=gmail&logoColor=black" alt="Gmail"/>
   </a>
   <a href="https://instagram.com/_.keshav1023.___">
-    <img src="https://img.shields.io/badge/📸_Visual_Intel-8B7355?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/_Visual_Intel-8B7355?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
   </a>
   <a href="https://linkedin.com/in/keshav-s-545345266">
-    <img src="https://img.shields.io/badge/🎩_Professional_Network-2C2416?style=for-the-badge&logo=linkedin&logoColor=D4AF37" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/_Professional_Network-2C2416?style=for-the-badge&logo=linkedin&logoColor=D4AF37" alt="LinkedIn"/>
   </a>
 </p>
 
