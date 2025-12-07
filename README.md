@@ -146,7 +146,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
   <img alt="Tracking the digital footprints" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" width="100%"/>
 </picture>
 
-** Following the breadcrumbs through the codebase...**
+**Following the breadcrumbs through the codebase...**
 
 </div>
 
