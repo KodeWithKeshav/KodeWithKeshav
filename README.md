@@ -156,35 +156,50 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-### 📂 CLASSIFIED PROJECTS
+## ⏱️ THE INVESTIGATION LOG
 
-<table>
+<table width="100%">
 <tr>
-<td width="33%" align="center">
+<td width="50%" valign="top">
 
-**🔐 OPERATION: STEALTH**  
-*Backend infrastructure that operates in complete silence*
+### 🌙 AFTER DARK OPERATIONS
+*When the city sleeps, the real work begins*
 
-[![Tech](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)](https://github.com/kodewithkeshav)
-[![Tech](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://github.com/kodewithkeshav)
+```javascript
+const detective = {
+  currentCase: "Building the Impossible",
+  location: "The Digital Underground",
+  status: "Deep in the Code",
+  lastSeen: "Debugging at 3 AM",
+  motivation: "Because someone has to",
+  weaknesses: ["Good coffee", "Elegant algorithms"],
+  strength: "Turning caffeine into code"
+};
+```
 
 </td>
-<td width="33%" align="center">
+<td width="50%" valign="top">
 
-**🎯 OPERATION: PRECISION**  
-*ML models that predict before you think*
+### 📻 INTERCEPTED TRANSMISSIONS
+*Latest signals from the field*
 
-[![Tech](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=black)](https://github.com/kodewithkeshav)
-[![Tech](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)](https://github.com/kodewithkeshav)
+```bash
+[INCOMING MESSAGE]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FROM: The Shadows
+TO: Potential Collaborators
+RE: Next Mission
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-</td>
-<td width="33%" align="center">
-
-**📱 OPERATION: GHOST**  
-*Mobile apps that leave no trace*
-
-[![Tech](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)](https://github.com/kodewithkeshav)
-[![Tech](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white)](https://github.com/kodewithkeshav)
+> Looking for partners who:
+  • Think in systems, not features
+  • Debug with instinct, not luck
+  • Ship code that matters
+  
+Reply through secure channels →
+━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[END TRANSMISSION]
+```
 
 </td>
 </tr>
@@ -192,48 +207,40 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-### 🎖️ FIELD REPORTS
+## 🗂️ THE METHODOLOGY
 
-<details>
-<summary><b>🔍 What I'm Currently Investigating</b></summary>
+<table width="100%">
+<tr>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/spy-male.png" width="60px"/>
 <br/>
-
-```
-→ Advanced Web Security & Penetration Testing
-→ Microservices Architecture in the Shadows  
-→ Real-time Data Pipelines with Zero Latency
-→ AI-Powered Automation for Complex Workflows
-```
-
-</details>
-
-<details>
-<summary><b>💡 Philosophy of The Detective</b></summary>
+<b>OBSERVE</b>
 <br/>
-
-> "Code is not just about making things work.  
-> It's about making them work **elegantly**, **efficiently**, and **invisibly**.  
->   
-> The best systems are the ones you never notice —  
-> until something goes wrong, and then they fix themselves.  
->   
-> That's the art. That's the craft."
-
-</details>
-
-<details>
-<summary><b>🤝 Want to Collaborate?</b></summary>
+<sub>Study the problem from every angle</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/mind-map.png" width="60px"/>
 <br/>
-
-I'm always interested in:
-- **High-impact projects** that solve real problems
-- **Innovative tech stacks** pushing boundaries
-- **Open source contributions** that matter
-- **Consulting opportunities** for complex architectures
-
-Drop me a line through the secure channels above. Let's build something extraordinary.
-
-</details>
+<b>ANALYZE</b>
+<br/>
+<sub>Break it down to its core logic</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/code.png" width="60px"/>
+<br/>
+<b>EXECUTE</b>
+<br/>
+<sub>Build with precision and purpose</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/fluency/96/000000/checkmark.png" width="60px"/>
+<br/>
+<b>DELIVER</b>
+<br/>
+<sub>Ship solutions that last</sub>
+</td>
+</tr>
+</table>
 
 ---
 
