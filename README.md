@@ -13,7 +13,7 @@
 
 ---
 
-## 🕵️ THE DOSSIER
+## THE DOSSIER
 
 **CASE FILE:** KESHAV_S.exe  
 **STATUS:** Active  
@@ -35,7 +35,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-## 📡 SECURE CHANNELS
+## SECURE CHANNELS
 
 <p align="center">
   <a href="mailto:kodewithkeshav@gmail.com">
@@ -51,7 +51,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-## 🔫 THE ARSENAL
+## THE ARSENAL
 
 <div align="center">
 
@@ -91,7 +91,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-## 📊 INTELLIGENCE REPORT
+## INTELLIGENCE REPORT
 
 <div align="center">
 
@@ -121,7 +121,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-## 💼 THE CODE
+## THE CODE
 
 <div align="center">
 
@@ -134,7 +134,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-## 🔍 THE EVIDENCE TRAIL
+## THE EVIDENCE TRAIL
 
 <div align="center">
 
@@ -146,7 +146,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
   <img alt="Tracking the digital footprints" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" width="100%"/>
 </picture>
 
-**🕵️ Following the breadcrumbs through the codebase...**
+** Following the breadcrumbs through the codebase...**
 
 </div>
 
@@ -162,7 +162,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
 <tr>
 <td width="50%" valign="top">
 
-### 🌙 AFTER DARK OPERATIONS
+### AFTER DARK OPERATIONS
 *When the city sleeps, the real work begins*
 
 ```javascript
@@ -180,7 +180,7 @@ const detective = {
 </td>
 <td width="50%" valign="top">
 
-### 📻 INTERCEPTED TRANSMISSIONS
+### INTERCEPTED TRANSMISSIONS
 *Latest signals from the field*
 
 ```bash
@@ -207,7 +207,7 @@ Reply through secure channels →
 
 ---
 
-## 🗂️ THE METHODOLOGY
+## THE METHODOLOGY
 
 <table width="100%">
 <tr>
