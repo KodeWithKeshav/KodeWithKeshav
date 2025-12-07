@@ -156,7 +156,7 @@ I don't just write code. I architect solutions that operate in the shadows and d
 
 ---
 
-## ⏱️ THE INVESTIGATION LOG
+## THE INVESTIGATION LOG
 
 <table width="100%">
 <tr>
