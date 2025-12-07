@@ -212,7 +212,7 @@ Reply through secure channels →
 <table width="100%">
 <tr>
 <td align="center" width="25%">
-<img src="https://img.icons8.com/fluency/96/000000/spy-male.png" width="60px"/>
+<img src="https://img.icons8.com/fluency/96/000000/search.png" width="60px"/>
 <br/>
 <b>OBSERVE</b>
 <br/>
