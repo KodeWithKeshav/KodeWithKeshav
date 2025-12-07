@@ -7,7 +7,7 @@
 
 <div align="center">
 
-## 🎩 *"In a world of bugs, I'm the exterminator"*
+## *"In a world of bugs, I'm the exterminator"*
 
 </div>
 
@@ -244,7 +244,7 @@ Reply through secure channels →
 
 ---
 
-## 🎩 *"Case closed. Until the next one."*
+## *"Case closed. Until the next one."*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,1,2,3,4&height=100&section=footer"/>
 
