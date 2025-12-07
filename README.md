@@ -100,31 +100,19 @@ I don't just write code. I architect solutions that operate in the shadows and d
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=gotham&hide_border=true&bg_color=0D0D0D&title_color=D4AF37&icon_color=D4AF37&text_color=8B8B8B&count_private=true" width="100%" alt="GitHub Stats"/>
-      <br/>
-      <b>📋 Case Statistics</b>
-    </td>
-    <td align="center" width="50%">
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=kodewithkeshav&theme=gotham&hide_border=true&background=0D0D0D&ring=D4AF37&fire=D4AF37&currStreakLabel=D4AF37&sideNums=8B8B8B&currStreakNum=D4AF37&sideLabels=8B8B8B" width="100%" alt="GitHub Streak"/>
       <br/>
       <b>🔥 Investigation Streak</b>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=high-contrast&bg_color=0D0D0D&color=D4AF37&line=8B7355&point=D4AF37&area=true&hide_border=true&custom_title=Activity%20Timeline" width="100%" alt="Activity Graph"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kodewithkeshav&layout=compact&theme=gotham&hide_border=true&bg_color=0D0D0D&title_color=D4AF37&text_color=8B8B8B" width="100%" alt="Top Languages"/>
-      <br/>
-      <b>🔍 Language Proficiency</b>
     </td>
     <td align="center" width="50%">
       <img src="https://github-profile-trophy.vercel.app/?username=kodewithkeshav&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&column=4&title=Commits,Repositories,Stars,Followers" width="100%" alt="Trophies"/>
       <br/>
       <b>🏆 Case Closed</b>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=high-contrast&bg_color=0D0D0D&color=D4AF37&line=8B7355&point=D4AF37&area=true&hide_border=true&custom_title=Activity%20Timeline" width="100%" alt="Activity Graph"/>
     </td>
   </tr>
 </table>
