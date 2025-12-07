@@ -1,134 +1,133 @@
-<!-- The Man in the Hat -->
+<!-- Header Typing Animation -->
 <div align="center">
-  
-  ![Visitors](https://komarev.com/gh/visitors?username=kodewithkeshav&color=8B4513&style=for-the-badge&label=SHADOW+VISITS)
-
-</div>
-
-<!-- Typing Header with a Vibe -->
-<div align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&duration=3000&pause=500&color=8B4513&center=true&vCenter=true&width=900&lines=The+Man+in+the+Hat;Silicon+Whisperer+%7C+Code+Cartographer;You+won't+see+me+coming+until+the+system+is+already+changed." alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&duration=3000&pause=1000&color=F80000&center=true&vCenter=true&width=900&lines=They+call+me+Keshav+S;Concierge+of+Code+%7C+Architect+of+Logic;I+build+Systems+that+Speak%2C+Sense+%26+Solve..." alt="Typing SVG" />
 </div>
 
 ---
 
 <table>
   <tr>
-    <td width="70%">
-      <h2 align="center" style="color: #8B4513;">🕶️ The Profile</h2>
-      <blockquote>
-        <em>“Some wear their credentials on their sleeves. I wear mine under a brim.”</em>
-      </blockquote>
+    <td width="65%">
+      <h2 align="center">Concierge of Code & Chaos</h2>
       <p>
-        They call me <strong>Keshav S</strong>. In the daylight, a builder. In the terminals, a ghost.<br><br>
-        I move through stacks like a shadow — from frontend façades to backend alleys, from embedded whispers to machine intuition. I don't break systems. I <strong>reshape</strong> them.<br><br>
-        
-        <strong>Current operations:</strong><br>
-        ▸ Full-stack reconnaissance & strategic deployment<br>
-        ▸ Embedded systems & IoT — when hardware needs a conscience<br>
-        ▸ Machine intelligence — not just data, but decisions<br>
-        ▸ Architectural oversight — blueprints that withstand entropy<br><br>
-        
-        <strong>I’m in the business of elegant solutions.</strong> If you have a problem that needs… discretion, reach out. No noise. Just results.
+        I'm <strong>Keshav S</strong> — a tactician of technology and a curator of digital constructs. 🕴️<br><br>
+I don’t just build software. I architect ecosystems — from orchestrated frontend interfaces and robust backend APIs to silicon logic and machine intelligence whispering in the dark.<br><br>
+
+My current operations include:<br>
+▸ Full Stack Webcraft — engineered with precision<br>
+▸ Embedded Intelligence & IoT — where machines begin to listen<br>
+▸ Machine Learning for the Real World — models that don’t guess, they know<br><br>
+
+🤝 Always open to high-stakes collaborations, ambitious ideas, or classified projects.
       </p>
     </td>
     <td align="center">
-      <img src="https://i.imgur.com/y6T7pgl.png" width="180px" alt="Silhouette" />
-      <br>
-      <sub><em>“The hat stays on.”</em></sub>
+  <img src="https://drive.google.com/uc?export=view&id=1EM5GajZ9baadIcoPHFDKuWcYUIFkuqhS" width="200px" />
     </td>
   </tr>
 </table>
 
 ---
 
-## 🧭 Contact Protocols
+## 🕵️ Reach the Concierge
 
 <p align="center">
   <a href="mailto:kodewithkeshav@gmail.com">
-    <img src="https://img.shields.io/badge/-Dead%20Drop%20(Email)-8B4513?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000" alt="Email"/>
-  </a>
-  <a href="https://linkedin.com/in/keshav-s-545345266">
-    <img src="https://img.shields.io/badge/-Professional%20Cover-8B4513?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/Encrypted%20Mail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://instagram.com/_.keshav1023.___">
-    <img src="https://img.shields.io/badge/-Civilian%20Identity-8B4513?style=for-the-badge&logo=instagram&logoColor=white&labelColor=000000" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/Follow%20the%20Trail-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+  </a>
+  <a href="https://linkedin.com/in/keshav-s-545345266">
+    <img src="https://img.shields.io/badge/Professional%20Alias-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </p>
 
+
+
 ---
 
-## 🧰 The Toolkit
-
-<blockquote align="center">
-  <em>“Tools are extensions of intent. Choose wisely.”</em>
-</blockquote>
-
+## 🧰 Tools of the Trade  
+<em>“A craftsman is only as good as his tools — and I prefer mine lethal.”</em>  
 <div align="center">
 
-### 🔧 Core Arsenal
-![C](https://img.shields.io/badge/-C-000000?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-000000?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=FFD43B)
-![Java](https://img.shields.io/badge/-Java-000000?style=flat-square&logo=openjdk&logoColor=white)
-![Dart](https://img.shields.io/badge/-Dart-000000?style=flat-square&logo=dart&logoColor=white)
-
-### 🌐 Webcraft & Interfaces
-![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat-square&logo=html5&logoColor=E34F26)
-![CSS3](https://img.shields.io/badge/-CSS3-000000?style=flat-square&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![React](https://img.shields.io/badge/-React-000000?style=flat-square&logo=react&logoColor=61DAFB)
-![Flutter](https://img.shields.io/badge/-Flutter-000000?style=flat-square&logo=flutter&logoColor=white)
-
-### 🗄️ Backend & Data
-![Node.js](https://img.shields.io/badge/-Node.js-000000?style=flat-square&logo=node.js&logoColor=339933)
-![Express.js](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-000000?style=flat-square&logo=mongodb&logoColor=47A248)
-![MySQL](https://img.shields.io/badge/-MySQL-000000?style=flat-square&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-000000?style=flat-square&logo=firebase&logoColor=FFCA28)
-
-### 🧠 Intelligence & Vision
-![OpenCV](https://img.shields.io/badge/-OpenCV-000000?style=flat-square&logo=opencv&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-000000?style=flat-square&logo=tensorflow&logoColor=FF6F00)
-![NumPy](https://img.shields.io/badge/-NumPy-000000?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/-Pandas-000000?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/-Matplotlib-000000?style=flat-square&logo=matplotlib&logoColor=white)
+<table>
+  <tr>
+    <td><img src="https://img.shields.io/badge/C-252525?style=for-the-badge&logo=c&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/C++-252525?style=for-the-badge&logo=c%2B%2B&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python&logoColor=ffdd54"/></td>
+    <td><img src="https://img.shields.io/badge/Java-3C3C3C?style=for-the-badge&logo=openjdk&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Dart-1C1C1C?style=for-the-badge&logo=dart&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/HTML5-7A0000?style=for-the-badge&logo=html5&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/CSS3-003B73?style=for-the-badge&logo=css3&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/></td>
+    <td><img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB"/></td>
+    <td><img src="https://img.shields.io/badge/Flutter-0A0A0A?style=for-the-badge&logo=flutter&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Node.js-263C2F?style=for-the-badge&logo=node.js&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Express.js-1B1B1B?style=for-the-badge&logo=express&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/MongoDB-143328?style=for-the-badge&logo=mongodb&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/MySQL-2E3A59?style=for-the-badge&logo=mysql&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Firebase-362213?style=for-the-badge&logo=firebase&logoColor=FFCA28"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/TailwindCSS-0A0F0F?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC"/></td>
+    <td><img src="https://img.shields.io/badge/Bootstrap-250055?style=for-the-badge&logo=bootstrap&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/OpenCV-2E2E2E?style=for-the-badge&logo=opencv&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/TensorFlow-300000?style=for-the-badge&logo=TensorFlow&logoColor=FF6F00"/></td>
+    <td><img src="https://img.shields.io/badge/Numpy-1A1A1A?style=for-the-badge&logo=numpy&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://img.shields.io/badge/Pandas-0A0A0A?style=for-the-badge&logo=pandas&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Matplotlib-191919?style=for-the-badge&logo=Matplotlib&logoColor=white"/></td>
+  </tr>
+</table>
 
 </div>
 
----
 
-## 📊 Shadow Metrics
+## 🕵️ Red’s Intel Network
 
 <div align="center">
 
-| Operational Intel | Activity Heatmap |
-| :---: | :---: |
-| <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=8B4513&icon_color=8B4513&text_color=ffffff&hide=issues" width="100%"/> | <img src="https://github-readme-streak-stats.herokuapp.com/?user=kodewithkeshav&theme=dark&background=000000&hide_border=true&ring=8B4513&fire=8B4513&currStreakLabel=8B4513" width="100%"/> |
-
-### 🕵️‍♂️ Movement Patterns
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=000000&hide_border=true&area=true&area_color=8B4513&color=8B4513&line=8B4513&point=FFFFFF&custom_title=Code+Footprints)
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://github-readme-stats.vercel.app/api?username=kodewithkeshav&show_icons=true&theme=radical&hide_border=false&count_private=true" width="95%" />
+      </td>
+      <td align="center" width="50%">
+        <img src="https://nirzak-streak-stats.vercel.app/?user=kodewithkeshav&theme=radical&hide_border=false" width="95%" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=kodewithkeshav&theme=react-dark&bg_color=0D0D0D&hide_border=true&area=true&custom_title=Red’s%20Intel%20Network&area_color=F80000&color=F80000&line=F80000&point=FFFFFF" width="100%"/>
+      </td>
+    </tr>
+  </table>
 
 </div>
 
----
-
-## 🐍 Silent Progress
+## 🗝️ Words From the Dark
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"/>
 </p>
 
 ---
 
-## 📜 Final Transmission
+## 🐍 GitHub Contribution Snake
 
-> “In a world of copy-paste developers, be the one who writes the original script.”
-> 
-> — *The Man in the Hat*
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
+  <img alt="GitHub Snake Animation" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
+
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:8B4513,100:000000&height=120&section=footer&fontSize=30&fontColor=ffffff&desc=Stay+Curious.%20Stay+Sharp.&descAlignY=75&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
 </p>
