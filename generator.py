@@ -125,46 +125,83 @@ def generate_portrait_dots(mode):
     return dots
 
 def gen_logo_1(num_pts):
-    # IoT / network (circle with nodes)
+    # Fedora Hat (Raymond Reddington)
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
-    r = 80
     for _ in range(num_pts):
-        angle = random.uniform(0, 2 * math.pi)
-        radius = r if random.random() > 0.5 else r * 0.5
-        noise_x = random.gauss(0, 5)
-        noise_y = random.gauss(0, 5)
-        pts.append((cx + math.cos(angle) * radius + noise_x, cy + math.sin(angle) * radius + noise_y))
+        r = random.random()
+        if r < 0.4:
+            # Brim: flattened ellipse
+            t = random.uniform(0, 2*math.pi)
+            x = math.cos(t) * 70
+            y = 20 + math.sin(t) * 10
+        elif r < 0.9:
+            # Crown: upper half ellipse
+            t = random.uniform(math.pi, 2*math.pi)
+            x = math.cos(t) * 45
+            y = 20 + math.sin(t) * 50
+        else:
+            # Hat band
+            x = random.uniform(-45, 45)
+            y = 20
+        # Add a bit of noise
+        noise_x = random.gauss(0, 1)
+        noise_y = random.gauss(0, 1)
+        pts.append((cx + x + noise_x, cy + y - 10 + noise_y))
     return pts
 
 def gen_logo_2(num_pts):
-    # Flutter-style abstract (angled ribbons)
+    # Crosshairs / Target
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
     for _ in range(num_pts):
-        if random.random() > 0.5:
-            # ribbon 1
-            x = random.uniform(-40, 40)
-            y = x + random.uniform(-10, 10) + 20
+        r = random.random()
+        if r < 0.35:
+            # Outer circle
+            t = random.uniform(0, 2*math.pi)
+            x = math.cos(t) * 60
+            y = math.sin(t) * 60
+        elif r < 0.7:
+            # Inner circle
+            t = random.uniform(0, 2*math.pi)
+            x = math.cos(t) * 40
+            y = math.sin(t) * 40
+        elif r < 0.85:
+            # Horizontal line
+            x = random.uniform(-80, 80)
+            y = 0
         else:
-            # ribbon 2
-            x = random.uniform(-40, 40)
-            y = -x + random.uniform(-10, 10) - 20
-        pts.append((cx + x, cy + y))
+            # Vertical line
+            x = 0
+            y = random.uniform(-80, 80)
+        noise_x = random.gauss(0, 1)
+        noise_y = random.gauss(0, 1)
+        pts.append((cx + x + noise_x, cy + y + noise_y))
     return pts
 
 def gen_logo_3(num_pts):
-    # AI / neural net (layered nodes)
+    # Letter "K" for Keshav
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
-    layers = [-50, 0, 50]
     for _ in range(num_pts):
-        lx = random.choice(layers)
-        ly = random.uniform(-60, 60)
-        # connect visually by scattering points along lines occasionally
-        if random.random() > 0.7:
-            lx += random.uniform(-10, 10)
-        pts.append((cx + lx, cy + ly))
+        r = random.random()
+        if r < 0.4:
+            # Vertical stem
+            x = -20
+            y = random.uniform(-50, 50)
+        elif r < 0.7:
+            # Upper diagonal
+            t = random.uniform(0, 1)
+            x = -20 + t * 60
+            y = 0 - t * 50
+        else:
+            # Lower diagonal
+            t = random.uniform(0, 1)
+            x = -20 + t * 60
+            y = 0 + t * 50
+        noise_x = random.gauss(0, 1)
+        noise_y = random.gauss(0, 1)
+        pts.append((cx + x + noise_x, cy + y + noise_y))
     return pts
 
 def compute_bands(dots, target_logo_centroid):
