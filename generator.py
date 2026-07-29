@@ -125,70 +125,139 @@ def generate_portrait_dots(mode):
     return dots
 
 def gen_logo_1(num_pts):
-    # Saturn (Planet with Ring)
+    # Elephant Face
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
     for _ in range(num_pts):
         r = random.random()
-        if r < 0.4:
-            # Planet body (solid-ish circle)
+        if r < 0.35:
+            # Head
             t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random()) * 30
+            rad = math.sqrt(random.random()) * 25
             x = math.cos(t) * rad
             y = math.sin(t) * rad
-        else:
-            # Ring (tilted ellipse)
+        elif r < 0.55:
+            # Left Ear
             t = random.uniform(0, 2*math.pi)
-            rad = random.uniform(45, 75)
-            ux = math.cos(t) * rad
-            uy = math.sin(t) * rad * 0.3
-            angle = math.radians(-20)
-            x = ux * math.cos(angle) - uy * math.sin(angle)
-            y = ux * math.sin(angle) + uy * math.cos(angle)
+            rad = math.sqrt(random.random())
+            ux = math.cos(t) * 20 * rad
+            uy = math.sin(t) * 35 * rad
+            x = ux - 30
+            y = uy - 5
+        elif r < 0.75:
+            # Right Ear
+            t = random.uniform(0, 2*math.pi)
+            rad = math.sqrt(random.random())
+            ux = math.cos(t) * 20 * rad
+            uy = math.sin(t) * 35 * rad
+            x = ux + 30
+            y = uy - 5
+        else:
+            # Trunk
+            ty = random.uniform(0, 45)
+            tx = math.sin(ty / 10) * 10
+            x = tx + random.uniform(-5, 5)
+            y = ty + 10 + random.uniform(-5, 5)
+        
         noise_x = random.gauss(0, 1)
         noise_y = random.gauss(0, 1)
         pts.append((cx + x + noise_x, cy + y + noise_y))
     return pts
 
 def gen_logo_2(num_pts):
-    # Spiral Galaxy (2 arms)
+    # Leopard Face
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
+    # Pre-define some spot centers
+    spots = [(random.uniform(-20, 20), random.uniform(-15, 20)) for _ in range(7)]
     for _ in range(num_pts):
-        arm = random.choice([0, math.pi])
-        t = random.uniform(0, 3*math.pi)
-        rad = (t / (3*math.pi)) ** 1.5 * 70
-        disp = random.gauss(0, 3 + rad*0.1)
-        angle = t + arm
-        x = math.cos(angle) * (rad + disp)
-        y = math.sin(angle) * (rad + disp)
-        pts.append((cx + x, cy + y))
+        r = random.random()
+        if r < 0.6:
+            # Head (wide circle)
+            t = random.uniform(0, 2*math.pi)
+            rad = math.sqrt(random.random())
+            x = math.cos(t) * 35 * rad
+            y = math.sin(t) * 30 * rad
+        elif r < 0.7:
+            # Left Ear
+            t = random.uniform(math.pi, 2*math.pi)
+            rad = math.sqrt(random.random()) * 12
+            x = math.cos(t) * rad - 25
+            y = math.sin(t) * rad - 20
+        elif r < 0.8:
+            # Right Ear
+            t = random.uniform(math.pi, 2*math.pi)
+            rad = math.sqrt(random.random()) * 12
+            x = math.cos(t) * rad + 25
+            y = math.sin(t) * rad - 20
+        else:
+            # Spots (denser areas)
+            spot = random.choice(spots)
+            t = random.uniform(0, 2*math.pi)
+            rad = math.sqrt(random.random()) * 5
+            x = spot[0] + math.cos(t) * rad
+            y = spot[1] + math.sin(t) * rad
+            
+        noise_x = random.gauss(0, 1)
+        noise_y = random.gauss(0, 1)
+        pts.append((cx + x + noise_x, cy + y + noise_y))
     return pts
 
 def gen_logo_3(num_pts):
-    # Crescent Moon and a Star
+    # Deer Face
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
     for _ in range(num_pts):
         r = random.random()
-        if r < 0.8:
-            # Crescent moon
-            t = random.uniform(-math.pi/2, math.pi/2)
-            outer_x = math.cos(t) * 50
-            outer_y = math.sin(t) * 50
-            inner_x = math.cos(t) * 35 + 20
-            inner_y = math.sin(t) * 50
-            lerp = random.random()
-            x = outer_x * lerp + inner_x * (1 - lerp) - 15
-            y = outer_y * lerp + inner_y * (1 - lerp)
+        if r < 0.4:
+            # Head (elongated ellipse)
+            t = random.uniform(0, 2*math.pi)
+            rad = math.sqrt(random.random())
+            x = math.cos(t) * 15 * rad
+            y = math.sin(t) * 25 * rad + 10
+        elif r < 0.5:
+            # Left Ear
+            t = random.uniform(0, 2*math.pi)
+            rad = math.sqrt(random.random())
+            ux = math.cos(t) * 12 * rad
+            uy = math.sin(t) * 4 * rad
+            # rotate
+            angle = math.radians(-30)
+            x = ux * math.cos(angle) - uy * math.sin(angle) - 15
+            y = ux * math.sin(angle) + uy * math.cos(angle) - 5
+        elif r < 0.6:
+            # Right Ear
+            t = random.uniform(0, 2*math.pi)
+            rad = math.sqrt(random.random())
+            ux = math.cos(t) * 12 * rad
+            uy = math.sin(t) * 4 * rad
+            # rotate
+            angle = math.radians(30)
+            x = ux * math.cos(angle) - uy * math.sin(angle) + 15
+            y = ux * math.sin(angle) + uy * math.cos(angle) - 5
         else:
-            # Tiny star
-            if random.random() < 0.5:
-                sx, sy = random.uniform(-10, 10), 0
-            else:
-                sx, sy = 0, random.uniform(-10, 10)
-            x = -30 + sx
-            y = -30 + sy
+            # Antlers
+            side = -1 if random.random() < 0.5 else 1
+            # Main branch
+            t_antler = random.random()
+            ax = side * (10 + t_antler * 20)
+            ay = -10 - t_antler * 35
+            
+            # Sub branches
+            if random.random() < 0.3:
+                # branch 1
+                t_sub = random.random()
+                ax = side * (15 + t_sub * 10)
+                ay = -25 - t_sub * 15
+            elif random.random() < 0.3:
+                # branch 2
+                t_sub = random.random()
+                ax = side * (20 + t_sub * 5)
+                ay = -35 - t_sub * 10
+                
+            x = ax + random.uniform(-1.5, 1.5)
+            y = ay + random.uniform(-1.5, 1.5)
+            
         noise_x = random.gauss(0, 1)
         noise_y = random.gauss(0, 1)
         pts.append((cx + x + noise_x, cy + y + noise_y))
