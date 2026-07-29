@@ -125,80 +125,70 @@ def generate_portrait_dots(mode):
     return dots
 
 def gen_logo_1(num_pts):
-    # Fedora Hat (Raymond Reddington)
+    # Saturn (Planet with Ring)
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
     for _ in range(num_pts):
         r = random.random()
         if r < 0.4:
-            # Brim: flattened ellipse
+            # Planet body (solid-ish circle)
             t = random.uniform(0, 2*math.pi)
-            x = math.cos(t) * 70
-            y = 20 + math.sin(t) * 10
-        elif r < 0.9:
-            # Crown: upper half ellipse
-            t = random.uniform(math.pi, 2*math.pi)
-            x = math.cos(t) * 45
-            y = 20 + math.sin(t) * 50
+            rad = math.sqrt(random.random()) * 30
+            x = math.cos(t) * rad
+            y = math.sin(t) * rad
         else:
-            # Hat band
-            x = random.uniform(-45, 45)
-            y = 20
-        # Add a bit of noise
-        noise_x = random.gauss(0, 1)
-        noise_y = random.gauss(0, 1)
-        pts.append((cx + x + noise_x, cy + y - 10 + noise_y))
-    return pts
-
-def gen_logo_2(num_pts):
-    # Crosshairs / Target
-    pts = []
-    cx, cy = PORTRAIT_W / 2, SVG_H / 2
-    for _ in range(num_pts):
-        r = random.random()
-        if r < 0.35:
-            # Outer circle
+            # Ring (tilted ellipse)
             t = random.uniform(0, 2*math.pi)
-            x = math.cos(t) * 60
-            y = math.sin(t) * 60
-        elif r < 0.7:
-            # Inner circle
-            t = random.uniform(0, 2*math.pi)
-            x = math.cos(t) * 40
-            y = math.sin(t) * 40
-        elif r < 0.85:
-            # Horizontal line
-            x = random.uniform(-80, 80)
-            y = 0
-        else:
-            # Vertical line
-            x = 0
-            y = random.uniform(-80, 80)
+            rad = random.uniform(45, 75)
+            ux = math.cos(t) * rad
+            uy = math.sin(t) * rad * 0.3
+            angle = math.radians(-20)
+            x = ux * math.cos(angle) - uy * math.sin(angle)
+            y = ux * math.sin(angle) + uy * math.cos(angle)
         noise_x = random.gauss(0, 1)
         noise_y = random.gauss(0, 1)
         pts.append((cx + x + noise_x, cy + y + noise_y))
     return pts
 
+def gen_logo_2(num_pts):
+    # Spiral Galaxy (2 arms)
+    pts = []
+    cx, cy = PORTRAIT_W / 2, SVG_H / 2
+    for _ in range(num_pts):
+        arm = random.choice([0, math.pi])
+        t = random.uniform(0, 3*math.pi)
+        rad = (t / (3*math.pi)) ** 1.5 * 70
+        disp = random.gauss(0, 3 + rad*0.1)
+        angle = t + arm
+        x = math.cos(angle) * (rad + disp)
+        y = math.sin(angle) * (rad + disp)
+        pts.append((cx + x, cy + y))
+    return pts
+
 def gen_logo_3(num_pts):
-    # Letter "K" for Keshav
+    # Crescent Moon and a Star
     pts = []
     cx, cy = PORTRAIT_W / 2, SVG_H / 2
     for _ in range(num_pts):
         r = random.random()
-        if r < 0.4:
-            # Vertical stem
-            x = -20
-            y = random.uniform(-50, 50)
-        elif r < 0.7:
-            # Upper diagonal
-            t = random.uniform(0, 1)
-            x = -20 + t * 60
-            y = 0 - t * 50
+        if r < 0.8:
+            # Crescent moon
+            t = random.uniform(-math.pi/2, math.pi/2)
+            outer_x = math.cos(t) * 50
+            outer_y = math.sin(t) * 50
+            inner_x = math.cos(t) * 35 + 20
+            inner_y = math.sin(t) * 50
+            lerp = random.random()
+            x = outer_x * lerp + inner_x * (1 - lerp) - 15
+            y = outer_y * lerp + inner_y * (1 - lerp)
         else:
-            # Lower diagonal
-            t = random.uniform(0, 1)
-            x = -20 + t * 60
-            y = 0 + t * 50
+            # Tiny star
+            if random.random() < 0.5:
+                sx, sy = random.uniform(-10, 10), 0
+            else:
+                sx, sy = 0, random.uniform(-10, 10)
+            x = -30 + sx
+            y = -30 + sy
         noise_x = random.gauss(0, 1)
         noise_y = random.gauss(0, 1)
         pts.append((cx + x + noise_x, cy + y + noise_y))
