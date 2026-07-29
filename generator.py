@@ -3,13 +3,11 @@ import math
 import random
 import numpy as np
 from PIL import Image, ImageOps, ImageEnhance, ImageFilter, ImageDraw
-from scipy.optimize import linear_sum_assignment
 
 # --- CONFIG ---
 IMG_PATH = "72bbc977-d086-4ce3-b9a0-5b253666002e.png"
 GRID_W, GRID_H = 300, 340
 PORTRAIT_TARGET_BANDS = 94
-TRAVELER_COUNT = 900
 SVG_W, SVG_H = 1180, 610
 PORTRAIT_W = int(SVG_W * 0.38)
 
@@ -28,7 +26,7 @@ PALETTE = {
         "portrait": "#7C3AED",
         "chrome": "#0891B2",
         "accent": "#10B981",
-        "bg": "#0A101F",  # Explicitly locked in prompt
+        "bg": "#0A101F",
         "border": "#243049",
         "text": "#F8FAFC",
         "dim": "#94A3B8",
@@ -65,17 +63,8 @@ def segment_background(img_gray):
     mask = binary_fill_holes(mask)
     return mask
 
-def generate_portrait_dots(mode):
-    img = Image.open(IMG_PATH).convert("RGB")
-    # Crop head and shoulders
-    w, h = img.size
-    # Better crop assuming subject is in center upper
-    crop_box = (w*0.2, h*0.1, w*0.8, h*0.7)
-    img = img.crop(crop_box)
-    img = img.resize((GRID_W, GRID_H), Image.Resampling.LANCZOS)
+def generate_dots_from_image(img, mode):
     img_gray = img.convert("L")
-    
-    # Contrast 1.3x only, autocontrast(cutoff=1) + UnsharpMask(radius=3, percent=140)
     img_gray = ImageOps.autocontrast(img_gray, cutoff=1)
     img_gray = img_gray.filter(ImageFilter.UnsharpMask(radius=3, percent=140))
     enhancer = ImageEnhance.Contrast(img_gray)
@@ -85,13 +74,10 @@ def generate_portrait_dots(mode):
     mask = segment_background(img_gray)
     
     if mode == "dark":
-        # dots draw the lit subject on panel
         arr = arr
     else:
-        # light mode: dots draw dark parts of photo
         arr = 255 - arr
     
-    # Floyd-Steinberg Dither (serpentine)
     dots = []
     for y in range(GRID_H):
         row_iter = range(GRID_W) if y % 2 == 0 else reversed(range(GRID_W))
@@ -99,12 +85,10 @@ def generate_portrait_dots(mode):
             old_pixel = arr[y, x]
             new_pixel = 255 if old_pixel > 127 else 0
             
-            # hard-clear error bleed for dark mode at mask edge
             if mode == "dark" and not mask[y, x]:
                 new_pixel = 0
                 arr[y, x] = 0
             
-            # store dot
             if new_pixel == 255:
                 dots.append((x, y))
             
@@ -121,172 +105,28 @@ def generate_portrait_dots(mode):
                     if x + 1 < GRID_W: arr[y + 1, x + 1] += quant_error * 3 / 16
                     arr[y + 1, x] += quant_error * 5 / 16
                     if x - 1 >= 0: arr[y + 1, x - 1] += quant_error * 1 / 16
-
     return dots
 
-def gen_logo_1(num_pts):
-    # Elephant Face
-    pts = []
-    cx, cy = PORTRAIT_W / 2, SVG_H / 2
-    for _ in range(num_pts):
-        r = random.random()
-        if r < 0.35:
-            # Head
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random()) * 25
-            x = math.cos(t) * rad
-            y = math.sin(t) * rad
-        elif r < 0.55:
-            # Left Ear
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random())
-            ux = math.cos(t) * 20 * rad
-            uy = math.sin(t) * 35 * rad
-            x = ux - 30
-            y = uy - 5
-        elif r < 0.75:
-            # Right Ear
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random())
-            ux = math.cos(t) * 20 * rad
-            uy = math.sin(t) * 35 * rad
-            x = ux + 30
-            y = uy - 5
-        else:
-            # Trunk
-            ty = random.uniform(0, 45)
-            tx = math.sin(ty / 10) * 10
-            x = tx + random.uniform(-5, 5)
-            y = ty + 10 + random.uniform(-5, 5)
-        
-        noise_x = random.gauss(0, 1)
-        noise_y = random.gauss(0, 1)
-        pts.append((cx + x + noise_x, cy + y + noise_y))
-    return pts
+def generate_portrait_dots(mode):
+    img = Image.open(IMG_PATH).convert("RGB")
+    w, h = img.size
+    crop_box = (w*0.2, h*0.1, w*0.8, h*0.7)
+    img = img.crop(crop_box)
+    img = img.resize((GRID_W, GRID_H), Image.Resampling.LANCZOS)
+    return generate_dots_from_image(img, mode)
 
-def gen_logo_2(num_pts):
-    # Leopard Face
-    pts = []
-    cx, cy = PORTRAIT_W / 2, SVG_H / 2
-    # Pre-define some spot centers
-    spots = [(random.uniform(-20, 20), random.uniform(-15, 20)) for _ in range(7)]
-    for _ in range(num_pts):
-        r = random.random()
-        if r < 0.6:
-            # Head (wide circle)
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random())
-            x = math.cos(t) * 35 * rad
-            y = math.sin(t) * 30 * rad
-        elif r < 0.7:
-            # Left Ear
-            t = random.uniform(math.pi, 2*math.pi)
-            rad = math.sqrt(random.random()) * 12
-            x = math.cos(t) * rad - 25
-            y = math.sin(t) * rad - 20
-        elif r < 0.8:
-            # Right Ear
-            t = random.uniform(math.pi, 2*math.pi)
-            rad = math.sqrt(random.random()) * 12
-            x = math.cos(t) * rad + 25
-            y = math.sin(t) * rad - 20
-        else:
-            # Spots (denser areas)
-            spot = random.choice(spots)
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random()) * 5
-            x = spot[0] + math.cos(t) * rad
-            y = spot[1] + math.sin(t) * rad
-            
-        noise_x = random.gauss(0, 1)
-        noise_y = random.gauss(0, 1)
-        pts.append((cx + x + noise_x, cy + y + noise_y))
-    return pts
+def generate_horse_dots(mode):
+    img = Image.open("horse.png").convert("RGB")
+    img = ImageOps.fit(img, (GRID_W, GRID_H), Image.Resampling.LANCZOS)
+    return generate_dots_from_image(img, mode)
 
-def gen_logo_3(num_pts):
-    # Deer Face
-    pts = []
-    cx, cy = PORTRAIT_W / 2, SVG_H / 2
-    for _ in range(num_pts):
-        r = random.random()
-        if r < 0.4:
-            # Head (elongated ellipse)
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random())
-            x = math.cos(t) * 15 * rad
-            y = math.sin(t) * 25 * rad + 10
-        elif r < 0.5:
-            # Left Ear
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random())
-            ux = math.cos(t) * 12 * rad
-            uy = math.sin(t) * 4 * rad
-            # rotate
-            angle = math.radians(-30)
-            x = ux * math.cos(angle) - uy * math.sin(angle) - 15
-            y = ux * math.sin(angle) + uy * math.cos(angle) - 5
-        elif r < 0.6:
-            # Right Ear
-            t = random.uniform(0, 2*math.pi)
-            rad = math.sqrt(random.random())
-            ux = math.cos(t) * 12 * rad
-            uy = math.sin(t) * 4 * rad
-            # rotate
-            angle = math.radians(30)
-            x = ux * math.cos(angle) - uy * math.sin(angle) + 15
-            y = ux * math.sin(angle) + uy * math.cos(angle) - 5
-        else:
-            # Antlers
-            side = -1 if random.random() < 0.5 else 1
-            # Main branch
-            t_antler = random.random()
-            ax = side * (10 + t_antler * 20)
-            ay = -10 - t_antler * 35
-            
-            # Sub branches
-            if random.random() < 0.3:
-                # branch 1
-                t_sub = random.random()
-                ax = side * (15 + t_sub * 10)
-                ay = -25 - t_sub * 15
-            elif random.random() < 0.3:
-                # branch 2
-                t_sub = random.random()
-                ax = side * (20 + t_sub * 5)
-                ay = -35 - t_sub * 10
-                
-            x = ax + random.uniform(-1.5, 1.5)
-            y = ay + random.uniform(-1.5, 1.5)
-            
-        noise_x = random.gauss(0, 1)
-        noise_y = random.gauss(0, 1)
-        pts.append((cx + x + noise_x, cy + y + noise_y))
-    return pts
-
-def compute_bands(dots, target_logo_centroid):
-    # drift bands
-    # add per-dot positional noise (sigma~4) before grouping
+def compute_bands(dots):
     noised = [(x + random.gauss(0, 4), y + random.gauss(0, 4)) for x, y in dots]
-    # group into ~94 drift bands based on quantized x, y
     bands = [[] for _ in range(PORTRAIT_TARGET_BANDS)]
     for i, (nx, ny) in enumerate(noised):
         band_idx = int((nx + ny) % PORTRAIT_TARGET_BANDS)
         bands[band_idx].append(dots[i])
-        
     return bands
-
-def compute_travelers(l1, l2, l3):
-    # match l1 -> l2
-    dist_12 = np.linalg.norm(np.array(l1)[:, None] - np.array(l2)[None, :], axis=2)
-    r_idx_12, c_idx_12 = linear_sum_assignment(dist_12)
-    l2_ordered = np.array(l2)[c_idx_12]
-
-    # match l2 -> l3
-    dist_23 = np.linalg.norm(l2_ordered[:, None] - np.array(l3)[None, :], axis=2)
-    r_idx_23, c_idx_23 = linear_sum_assignment(dist_23)
-    l3_ordered = np.array(l3)[c_idx_23]
-    
-    return list(zip(l1, l2_ordered.tolist(), l3_ordered.tolist()))
 
 def char_width(c):
     if c in "iIl1t.,- ": return 5
@@ -299,24 +139,20 @@ def text_length(s, font_size):
 def generate_svg(mode, out_path):
     pal = PALETTE[mode]
     
-    dots = generate_portrait_dots(mode)
+    dots1 = generate_portrait_dots(mode)
+    dots2 = generate_horse_dots(mode)
     
-    # Scale dots to fit VISUAL.MAP area (left 38%)
     scale_x = (PORTRAIT_W - 80) / GRID_W
     scale_y = (SVG_H - 120) / GRID_H
     scale = min(scale_x, scale_y)
     ox = 40 + (PORTRAIT_W - 80 - GRID_W * scale) / 2
     oy = 80 + (SVG_H - 120 - GRID_H * scale) / 2
     
-    dots_scaled = [(x * scale + ox, y * scale + oy) for x, y in dots]
+    dots1_scaled = [(x * scale + ox, y * scale + oy) for x, y in dots1]
+    dots2_scaled = [(x * scale + ox, y * scale + oy) for x, y in dots2]
     
-    l1 = gen_logo_1(TRAVELER_COUNT)
-    l2 = gen_logo_2(TRAVELER_COUNT)
-    l3 = gen_logo_3(TRAVELER_COUNT)
-    
-    travelers = compute_travelers(l1, l2, l3)
-    centroid_l1 = (sum(x for x, y in l1) / TRAVELER_COUNT, sum(y for x, y in l1) / TRAVELER_COUNT)
-    bands = compute_bands(dots_scaled, centroid_l1)
+    bands1 = compute_bands(dots1_scaled)
+    bands2 = compute_bands(dots2_scaled)
     
     with open(out_path, "w") as f:
         f.write(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {SVG_W} {SVG_H}" width="{SVG_W}" height="{SVG_H}">\n')
@@ -361,76 +197,50 @@ def generate_svg(mode, out_path):
         for label, val in INFO_ROWS:
             f.write(f'  <text x="{panel_x}" y="{y_cursor}" fill="{pal["dim"]}" font-family="monospace" font-size="13">{label}</text>\n')
             
-            # Leaders calculation
             lab_len = text_length(label, 13)
             val_len = text_length(val, 14)
             space_left = row_w - lab_len - val_len - 20
             dots_count = max(0, int(space_left / text_length(".", 13)))
             leader_str = "." * dots_count
             
-            # Center leader dots properly
             f.write(f'  <text x="{panel_x + lab_len + 10}" y="{y_cursor}" fill="{pal["dotted"]}" font-family="monospace" font-size="13" textLength="{space_left}" lengthAdjust="spacingAndGlyphs">{leader_str}</text>\n')
-            # Right aligned value
             f.write(f'  <text x="{panel_x + row_w - val_len}" y="{y_cursor}" fill="{pal["text"]}" font-family="monospace" font-size="14" textLength="{val_len}" lengthAdjust="spacingAndGlyphs">{val}</text>\n')
             y_cursor += 23
             
         y_cursor += 15
         
-        # Status text handling (multiline)
+        # Status text handling
         f.write(f'  <text x="{panel_x}" y="{y_cursor}" fill="{pal["accent"]}" font-family="monospace" font-size="13">&gt; {STATUS_TEXT[:60]}</text>\n')
         f.write(f'  <text x="{panel_x + 15}" y="{y_cursor+23}" fill="{pal["accent"]}" font-family="monospace" font-size="13">{STATUS_TEXT[60:]}</text>\n')
         
-        # SMIL Animation parameters
-        # Loop 14.2s. keyTimes for 3.0s (0->0.21), trans 1.3s (0.21->0.30), logo1 2.0s (0.30->0.44), trans 1.3s (0.44->0.53), 
-        # logo2 2.0s (0.53->0.67), trans 1.3s (0.67->0.76), logo3 2.0s (0.76->0.90), trans to portrait 1.4s (0.90->1.0)
-        loop_dur = "14.2s"
-        kt = "0; 0.21; 0.30; 0.44; 0.53; 0.67; 0.76; 0.90; 1.0"
-        
-        # Portrait opacity keyframes: 1; 1; 0; 0; 0; 0; 0; 0; 1
-        port_op = "1; 1; 0; 0; 0; 0; 0; 0; 1"
-        
-        # Traveler opacity: hidden during portrait phase (0;0;1;1;...;0)
-        trav_op = "0; 0; 1; 1; 1; 1; 1; 1; 0"
+        loop_dur = "8s"
+        kt = "0; 0.4; 0.5; 0.9; 1.0"
+        port_op = "1; 1; 0; 0; 1"
+        horse_op = "0; 0; 1; 1; 0"
         
         f.write(f'  <g fill="{pal["portrait"]}">\n')
-        for band in bands:
-            # Two nested transforms don't work cleanly in some renderers, we'll animate x and y directly or a single transform
-            # The prompt says: "translate ~42% toward the first logo's centroid while fading, then returns"
-            dx = (centroid_l1[0] - PORTRAIT_W/2) * 0.42
-            dy = (centroid_l1[1] - SVG_H/2) * 0.42
-            tx = f"0,0; 0,0; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; 0,0"
-            
+        for band in bands1:
             path_d = "".join(f"M{x:.1f},{y:.1f}h1.5v1.5h-1.5z" for x, y in band)
             f.write(f'    <path d="{path_d}" shape-rendering="crispEdges">\n')
             f.write(f'      <animate attributeName="opacity" values="{port_op}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
-            f.write(f'      <animateTransform attributeName="transform" type="translate" values="{tx}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
             f.write(f'    </path>\n')
         f.write(f'  </g>\n')
         
         f.write(f'  <g fill="{pal["portrait"]}">\n')
-        for p1, p2, p3 in travelers:
-            dx1, dy1 = p1
-            dx2, dy2 = p2
-            dx3, dy3 = p3
-            vx = f"{dx1:.1f}; {dx1:.1f}; {dx2:.1f}; {dx2:.1f}; {dx3:.1f}; {dx3:.1f}; {dx1:.1f}; {dx1:.1f}; {dx1:.1f}"
-            vy = f"{dy1:.1f}; {dy1:.1f}; {dy2:.1f}; {dy2:.1f}; {dy3:.1f}; {dy3:.1f}; {dy1:.1f}; {dy1:.1f}; {dy1:.1f}"
-            
-            f.write(f'    <rect width="1.5" height="1.5" rx="0.75">\n')
-            f.write(f'      <animate attributeName="x" values="{vx}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
-            f.write(f'      <animate attributeName="y" values="{vy}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
-            f.write(f'      <animate attributeName="opacity" values="{trav_op}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
-            f.write(f'    </rect>\n')
+        for band in bands2:
+            path_d = "".join(f"M{x:.1f},{y:.1f}h1.5v1.5h-1.5z" for x, y in band)
+            f.write(f'    <path d="{path_d}" shape-rendering="crispEdges">\n')
+            f.write(f'      <animate attributeName="opacity" values="{horse_op}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
+            f.write(f'    </path>\n')
         f.write(f'  </g>\n')
         
         f.write('</svg>\n')
 
 def generate_png_test(mode, out_path):
-    # Static render of first frame using pillow for validation
     pal = PALETTE[mode]
     img = Image.new("RGB", (SVG_W, SVG_H), pal["bg"])
     draw = ImageDraw.Draw(img)
     
-    # draw dots
     dots = generate_portrait_dots(mode)
     scale_x = (PORTRAIT_W - 80) / GRID_W
     scale_y = (SVG_H - 120) / GRID_H
