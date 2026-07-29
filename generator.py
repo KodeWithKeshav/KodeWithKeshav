@@ -304,7 +304,7 @@ def generate_svg(mode, out_path):
             dy = (centroid_l1[1] - SVG_H/2) * 0.42
             tx = f"0,0; 0,0; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; {dx:.1f},{dy:.1f}; 0,0"
             
-            path_d = "".join(f"M{x:.1f},{y:.1f}h1" for x, y in band)
+            path_d = "".join(f"M{x:.1f},{y:.1f}h1.5v1.5h-1.5z" for x, y in band)
             f.write(f'    <path d="{path_d}" shape-rendering="crispEdges">\n')
             f.write(f'      <animate attributeName="opacity" values="{port_op}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
             f.write(f'      <animateTransform attributeName="transform" type="translate" values="{tx}" keyTimes="{kt}" dur="{loop_dur}" repeatCount="indefinite" />\n')
