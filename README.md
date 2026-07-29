@@ -2,9 +2,9 @@
   
 <!-- 1. ANIMATED BANNER -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/dark.svg?v=5">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/light.svg?v=5">
-  <img alt="Keshav S Profile Banner" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/light.svg?v=5">
+  <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+  <img alt="Keshav S Profile Banner" src="./light.svg">
 </picture>
 
 <!-- 2. SOCIAL BADGES -->
