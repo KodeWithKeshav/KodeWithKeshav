@@ -2,9 +2,9 @@
   
 <!-- 1. ANIMATED BANNER -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/light.svg">
-  <img alt="Keshav S Profile Banner" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/light.svg?v=2">
+  <img alt="Keshav S Profile Banner" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/main/light.svg?v=2">
 </picture>
 
 <!-- 2. SOCIAL BADGES -->
@@ -33,9 +33,9 @@
 <!-- 4. CONTRIBUTION SNAKE -->
 <!-- NOTE: This will appear broken until the GitHub Action runs successfully for the first time! -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
-  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg?v=2" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/KodeWithKeshav/KodeWithKeshav/output/github-snake.svg?v=2" />
 </picture>
 
 </div>
