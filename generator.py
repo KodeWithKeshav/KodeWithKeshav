@@ -56,35 +56,21 @@ INFO_ROWS = [
 STATUS_TEXT = "People assume the network is the machines. It's not — it's who's willing to talk to who. I just happen to speak both languages."
 
 def segment_background(img_gray):
-    # A simple threshold based segmentation assuming corners are background
     arr = np.array(img_gray, dtype=float)
-    # sample corners
-    bg_samples = [arr[0,0], arr[0,-1], arr[-1,0], arr[-1,-1]]
-    bg_median = np.median(bg_samples)
-    dist = np.abs(arr - bg_median)
-    mask = dist > 20 # Threshold distance
+    threshold = np.percentile(arr, 30)
+    mask = arr > threshold
     
-    # Binary closing and fill holes
-    from scipy.ndimage import binary_closing, binary_fill_holes, label
+    from scipy.ndimage import binary_closing, binary_fill_holes
     mask = binary_closing(mask, structure=np.ones((5,5)))
     mask = binary_fill_holes(mask)
-    
-    # Keep largest connected component
-    labeled, num_features = label(mask)
-    if num_features > 0:
-        sizes = [np.sum(labeled == i) for i in range(1, num_features + 1)]
-        largest_comp = np.argmax(sizes) + 1
-        mask = (labeled == largest_comp)
-    else:
-        mask = np.ones_like(mask, dtype=bool)
     return mask
 
 def generate_portrait_dots(mode):
     img = Image.open(IMG_PATH).convert("RGB")
     # Crop head and shoulders
     w, h = img.size
-    # Guessing crop assuming subject is in center
-    crop_box = (w*0.15, h*0.1, w*0.85, h*0.8)
+    # Better crop assuming subject is in center upper
+    crop_box = (w*0.2, h*0.1, w*0.8, h*0.7)
     img = img.crop(crop_box)
     img = img.resize((GRID_W, GRID_H), Image.Resampling.LANCZOS)
     img_gray = img.convert("L")
